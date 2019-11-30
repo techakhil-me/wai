@@ -46,6 +46,7 @@ $('.next-button.email').click(
 
 function myFunction() {
   var x = document.getElementById("myText").value;
-  var y = x * 500
-  document.getElementById("demo").innerHTML = y + ' Litres of water saved';
+  var y = x * 500 * 365
+  var z =0.4 * y
+  document.getElementById("demo").innerHTML = z + ' Litres of water saved';
 }
