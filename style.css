@@ -171,3 +171,12 @@ body {
   width: 100%;
   text-align: center;
 }
+
+.success a {
+  color: white;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+}
